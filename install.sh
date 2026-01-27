@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-cd "$(dirname "$0")"
+cd "$(dirname "$0")" || exit 1
 
 # Create neovim stow
 if [ -d "YorVim" ]; then
@@ -8,7 +8,15 @@ if [ -d "YorVim" ]; then
   stow --adopt -t ~/.config/nvim YorVim
 fi
 
-for config in hypr; do
+echo hi
+
+stows=(
+  "hypr"
+  "waybar"
+  "ghostty"
+)
+
+for config in "${stows[@]}"; do
   target="$HOME/.config/${config}"
   [ -d "$target" ] && [ ! -L "$target" ] && rm -rf "$target"
   stow --adopt -t "$HOME" "$config"
