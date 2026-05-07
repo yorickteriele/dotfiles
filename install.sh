@@ -21,3 +21,6 @@ for config in "${stows[@]}"; do
   [ -d "$target" ] && [ ! -L "$target" ] && rm -rf "$target"
   stow --adopt -t "$HOME" "$config"
 done
+
+# Scripts — stowed directly to $HOME so .local/bin/ is included
+stow --adopt -t "$HOME" bin

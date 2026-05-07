@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Usage: hypr-scratchpad <workspace> <class-regex> <launch-command...>
+#
+# Toggles a named special workspace, launching the app if it isn't running.
+# The windowrule is registered dynamically — no separate windowrule needed.
+
+if (($# < 3)); then
+  echo "Usage: hypr-scratchpad <workspace> <class-regex> <launch-command...>"
+  exit 1
+fi
+
+WORKSPACE="$1"
+CLASS_REGEX="$2"
+shift 2
+LAUNCH_CMD=("$@")
+
+# Register the windowrule so the app lands silently in this special workspace
+hyprctl keyword windowrulev2 "workspace special:${WORKSPACE} silent,class:${CLASS_REGEX}" &>/dev/null
+
+# Launch the app if no window with that class is open anywhere
+if ! hyprctl clients -j | jq -e --arg p "$CLASS_REGEX" 'any(.[]; .class | test($p))' &>/dev/null; then
+  setsid "${LAUNCH_CMD[@]}" &>/dev/null &
+fi
+
+hyprctl dispatch togglespecialworkspace "$WORKSPACE"
