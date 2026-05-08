@@ -11,6 +11,7 @@ fi
 echo hi
 
 stows=(
+  "shell"
   "hypr"
   "waybar"
   "ghostty"
