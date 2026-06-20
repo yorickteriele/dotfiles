@@ -1,0 +1,484 @@
+{
+  "Locale": "en_US",
+  "Theme": "Default",
+  "ThemeOverrides": "",
+  "DefaultFontFamily": "",
+  "MonospaceFontFamily": "",
+  "UseSystemWindowFrame": true,
+  "DefaultFontSize": 13,
+  "EditorFontSize": 13,
+  "EditorTabWidth": 4,
+  "Zoom": 1,
+  "Layout": {
+    "LauncherWidth": 2536,
+    "LauncherHeight": 1391,
+    "LauncherPositionX": 1932,
+    "LauncherPositionY": 37,
+    "LauncherWindowState": 0,
+    "RepositorySidebarWidth": 250,
+    "WorkingCopyLeftWidth": 704,
+    "StashesLeftWidth": 300,
+    "CommitDetailChangesLeftWidth": 407,
+    "CommitDetailFilesLeftWidth": 256
+  },
+  "ShowLocalChangesByDefault": false,
+  "ShowChangesInCommitDetailByDefault": false,
+  "MaxHistoryCommits": 20000,
+  "SubjectGuideLength": 50,
+  "DateTimeFormat": 0,
+  "Use24Hours": true,
+  "UseFixedTabWidth": true,
+  "UseAutoHideScrollBars": true,
+  "UseGitHubStyleAvatar": true,
+  "Check4UpdatesOnStartup": true,
+  "ShowAuthorTimeInGraph": false,
+  "ShowChildren": false,
+  "IgnoreUpdateTag": "v2026.13",
+  "ShowTagsInGraph": true,
+  "UseCompactBranchNamesInGraph": true,
+  "UseTwoColumnsLayoutInHistories": true,
+  "DisplayTimeAsPeriodInHistories": true,
+  "UseSideBySideDiff": false,
+  "UseSyntaxHighlighting": false,
+  "IgnoreCRAtEOLInDiff": true,
+  "UseStashAndReapplyByDefault": false,
+  "EnableAutoFetch": false,
+  "AutoFetchInterval": 10,
+  "IgnoreWhitespaceChangesInDiff": false,
+  "EnableDiffViewWordWrap": false,
+  "ShowHiddenSymbolsInDiffView": false,
+  "UseFullTextDiff": true,
+  "LFSImageActiveIdx": 0,
+  "ImageDiffActiveIdx": 0,
+  "EnableCompactFoldersInChangesTree": false,
+  "UnstagedChangeViewMode": 0,
+  "StagedChangeViewMode": 0,
+  "CommitChangeViewMode": 0,
+  "StashChangeViewMode": 0,
+  "GitInstallPath": "/usr/bin/git",
+  "GitDefaultCloneDir": "/home/yorick/DEV/",
+  "UseLibsecretInsteadOfGCM": false,
+  "ShellOrTerminalType": 9,
+  "ShellOrTerminalPath": "/usr/bin/ghostty",
+  "ShellOrTerminalArgs": null,
+  "ExternalMergeToolType": 0,
+  "ExternalMergeToolPath": "",
+  "ExternalMergeToolDiffArgs": "",
+  "ExternalMergeToolMergeArgs": "",
+  "StatisticsSampleColor": 4278255360,
+  "RepositoryNodes": [
+    {
+      "Id": "/home/yorick/DEV/Aresis",
+      "Name": "Aresis",
+      "Bookmark": 7,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "feature/DEV-218-service-request-panel",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 3
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/DEV/CaveGame",
+      "Name": "CaveGame",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "Generation",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 269
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/DEV/omarchy-supplement/dotfiles",
+      "Name": "dotfiles",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 21
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Implementation.Bolscher",
+      "Name": "Implementation.Bolscher",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "master",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Implementation.Djurve",
+      "Name": "Implementation.Djurve",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "master",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Implementation.Euroma",
+      "Name": "Implementation.Euroma",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "master",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Infrastructure",
+      "Name": "Infrastructure",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/DEV/leadsgen",
+      "Name": "leadsgen",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 5
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime",
+      "Name": "Maxime",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "develop",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 2
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.App",
+      "Name": "Maxime.App",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Common",
+      "Name": "Maxime.Common",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Documentation",
+      "Name": "Maxime.Documentation",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "develop",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 1
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Keycloak",
+      "Name": "Maxime.Keycloak",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Learn",
+      "Name": "Maxime.Learn",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "develop",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 1
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Organization",
+      "Name": "Maxime.Organization",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "develop",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 1
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Progress",
+      "Name": "Maxime.Progress",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "develop",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Registrations",
+      "Name": "Maxime.Registrations",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "develop",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 9
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Specifications",
+      "Name": "Maxime.Specifications",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "develop",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 1
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Suppliers",
+      "Name": "Maxime.Suppliers",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "develop",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Maxime.Web",
+      "Name": "Maxime.Web",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "develop",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 1
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/DEV/MWM-POC",
+      "Name": "MWM-POC",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "Add-NiX",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 22
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/DEV/ReadAloud",
+      "Name": "ReadAloud",
+      "Bookmark": 6,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 40
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/SD/Scripts",
+      "Name": "Scripts",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 2
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/DEV/yorickteriele.github.io",
+      "Name": "yorickteriele.github.io",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 2
+      },
+      "SubNodes": []
+    }
+  ],
+  "Workspaces": [
+    {
+      "Name": "Default",
+      "Color": 4278221015,
+      "Repositories": [
+        "/home/yorick/DEV/Aresis",
+        "/home/yorick/DEV/CaveGame",
+        "/home/yorick/DEV/leadsgen"
+      ],
+      "ActiveIdx": 0,
+      "IsActive": true,
+      "RestoreOnStartup": true,
+      "DefaultCloneDir": ""
+    },
+    {
+      "Name": "ChipSoft",
+      "Color": 4278208125,
+      "Repositories": [
+        "/home/yorick/DEV/Aresis",
+        "/home/yorick/DEV/MWM-POC",
+        "/home/yorick/DEV/ReadAloud",
+        "/home/yorick/DEV/CaveGame",
+        "/home/yorick/DEV/yorickteriele.github.io",
+        "/home/yorick/DEV/omarchy-supplement/dotfiles"
+      ],
+      "ActiveIdx": 0,
+      "IsActive": false,
+      "RestoreOnStartup": true,
+      "DefaultCloneDir": "/home/yorick/DEV/yorickteriele.github.io/"
+    },
+    {
+      "Name": "Djurve",
+      "Color": 4278221015,
+      "Repositories": [
+        "/home/yorick/SD/Maxime",
+        "/home/yorick/SD/Maxime.Registrations",
+        "/home/yorick/SD/Maxime.Documentation",
+        "/home/yorick/SD/Maxime.Web",
+        "/home/yorick/SD/Scripts"
+      ],
+      "ActiveIdx": 4,
+      "IsActive": false,
+      "RestoreOnStartup": true,
+      "DefaultCloneDir": "/home/yorick/SD/"
+    }
+  ],
+  "CustomActions": [],
+  "OpenAIServices": [
+    {
+      "Name": "Google AI",
+      "Server": "https://generativelanguage.googleapis.com/v1",
+      "ApiKey": "AIzaSyDz7JpB508ynZEEY7K0jbjLdJf6mA8NgrI",
+      "ReadApiKeyFromEnv": false,
+      "Model": "models/gemini-2.5-flash",
+      "AutoFetchAvailableModels": true,
+      "AdditionalPrompt": ""
+    },
+    {
+      "Name": "OpenAI",
+      "Server": "https://api.openai.com/v1",
+      "ApiKey": "",
+      "ReadApiKeyFromEnv": false,
+      "Model": "",
+      "AutoFetchAvailableModels": true,
+      "AdditionalPrompt": ""
+    },
+    {
+      "Name": "Ollama",
+      "Server": "http://localhost:11434/",
+      "ApiKey": "",
+      "ReadApiKeyFromEnv": false,
+      "Model": "",
+      "AutoFetchAvailableModels": true,
+      "AdditionalPrompt": ""
+    }
+  ],
+  "LastCheckUpdateTime": 1781950279.8800378
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SourceGit
+Comment=Open-source & Free Git GUI Client
+Exec=env GDK_BACKEND=x11 sourcegit
+Icon=sourcegit
+Terminal=false
+Type=Application
+Categories=Development
+MimeType=inode/directory;
+X-Desktop-File-Install-Version=0.28
