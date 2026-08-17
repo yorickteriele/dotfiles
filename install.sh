@@ -30,5 +30,16 @@ done
 # Scripts — stowed directly to $HOME so .local/bin/ is included
 stow --adopt -t "$HOME" bin
 
+# Claude Code global config — only CLAUDE.md + settings.json are tracked;
+# the rest of ~/.claude (sessions, creds, history, plugin state) stays local.
+mkdir -p ~/.claude
+for f in CLAUDE.md settings.json; do
+  target="$HOME/.claude/$f"
+  if [ -e "$target" ] && [ ! -L "$target" ]; then
+    mv "$target" "$target.pre-stow-backup"
+  fi
+done
+stow -t "$HOME" claude
+
 # Development tooling managed outside of mise.
 ./dotnet/install.sh

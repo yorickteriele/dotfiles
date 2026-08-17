@@ -12,13 +12,13 @@
   "Layout": {
     "LauncherWidth": 2536,
     "LauncherHeight": 1391,
-    "LauncherPositionX": 1932,
+    "LauncherPositionX": 12,
     "LauncherPositionY": 37,
     "LauncherWindowState": 0,
     "RepositorySidebarWidth": 250,
-    "WorkingCopyLeftWidth": 704,
+    "WorkingCopyLeftWidth": 834,
     "StashesLeftWidth": 300,
-    "CommitDetailChangesLeftWidth": 407,
+    "CommitDetailChangesLeftWidth": 251,
     "CommitDetailFilesLeftWidth": 256
   },
   "ShowLocalChangesByDefault": false,
@@ -31,9 +31,8 @@
   "UseAutoHideScrollBars": true,
   "UseGitHubStyleAvatar": true,
   "Check4UpdatesOnStartup": true,
-  "ShowAuthorTimeInGraph": false,
   "ShowChildren": false,
-  "IgnoreUpdateTag": "v2026.13",
+  "IgnoreUpdateTag": "v2026.18",
   "ShowTagsInGraph": true,
   "UseCompactBranchNamesInGraph": true,
   "UseTwoColumnsLayoutInHistories": true,
@@ -65,7 +64,6 @@
   "ExternalMergeToolPath": "",
   "ExternalMergeToolDiffArgs": "",
   "ExternalMergeToolMergeArgs": "",
-  "StatisticsSampleColor": 4278255360,
   "RepositoryNodes": [
     {
       "Id": "/home/yorick/DEV/Aresis",
@@ -74,10 +72,10 @@
       "IsRepository": true,
       "IsExpanded": false,
       "Status": {
-        "CurrentBranch": "feature/DEV-218-service-request-panel",
+        "CurrentBranch": "feature/DEV-268-preview-env-per-pr",
         "Ahead": 0,
         "Behind": 0,
-        "LocalChanges": 3
+        "LocalChanges": 0
       },
       "SubNodes": []
     },
@@ -96,6 +94,20 @@
       "SubNodes": []
     },
     {
+      "Id": "/home/yorick/SD/claude-config",
+      "Name": "claude-config",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "linux",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 18
+      },
+      "SubNodes": []
+    },
+    {
       "Id": "/home/yorick/DEV/omarchy-supplement/dotfiles",
       "Name": "dotfiles",
       "Bookmark": 0,
@@ -105,7 +117,7 @@
         "CurrentBranch": "main",
         "Ahead": 0,
         "Behind": 0,
-        "LocalChanges": 21
+        "LocalChanges": 5
       },
       "SubNodes": []
     },
@@ -115,12 +127,7 @@
       "Bookmark": 0,
       "IsRepository": true,
       "IsExpanded": false,
-      "Status": {
-        "CurrentBranch": "master",
-        "Ahead": 0,
-        "Behind": 0,
-        "LocalChanges": 0
-      },
+      "Status": null,
       "SubNodes": []
     },
     {
@@ -129,12 +136,7 @@
       "Bookmark": 0,
       "IsRepository": true,
       "IsExpanded": false,
-      "Status": {
-        "CurrentBranch": "master",
-        "Ahead": 0,
-        "Behind": 0,
-        "LocalChanges": 0
-      },
+      "Status": null,
       "SubNodes": []
     },
     {
@@ -143,12 +145,7 @@
       "Bookmark": 0,
       "IsRepository": true,
       "IsExpanded": false,
-      "Status": {
-        "CurrentBranch": "master",
-        "Ahead": 0,
-        "Behind": 0,
-        "LocalChanges": 0
-      },
+      "Status": null,
       "SubNodes": []
     },
     {
@@ -175,7 +172,21 @@
         "CurrentBranch": "main",
         "Ahead": 0,
         "Behind": 0,
-        "LocalChanges": 5
+        "LocalChanges": 28
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/DEV/library",
+      "Name": "library",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 84
       },
       "SubNodes": []
     },
@@ -189,7 +200,7 @@
         "CurrentBranch": "develop",
         "Ahead": 0,
         "Behind": 0,
-        "LocalChanges": 2
+        "LocalChanges": 0
       },
       "SubNodes": []
     },
@@ -213,12 +224,7 @@
       "Bookmark": 0,
       "IsRepository": true,
       "IsExpanded": false,
-      "Status": {
-        "CurrentBranch": "main",
-        "Ahead": 0,
-        "Behind": 0,
-        "LocalChanges": 0
-      },
+      "Status": null,
       "SubNodes": []
     },
     {
@@ -228,10 +234,10 @@
       "IsRepository": true,
       "IsExpanded": false,
       "Status": {
-        "CurrentBranch": "develop",
+        "CurrentBranch": "TASK-T1281-SupplierManagementBasic",
         "Ahead": 0,
         "Behind": 0,
-        "LocalChanges": 1
+        "LocalChanges": 5
       },
       "SubNodes": []
     },
@@ -270,10 +276,10 @@
       "IsRepository": true,
       "IsExpanded": false,
       "Status": {
-        "CurrentBranch": "develop",
+        "CurrentBranch": "TASK-T1281-SupplierManagementBasic",
         "Ahead": 0,
         "Behind": 0,
-        "LocalChanges": 1
+        "LocalChanges": 0
       },
       "SubNodes": []
     },
@@ -298,10 +304,10 @@
       "IsRepository": true,
       "IsExpanded": false,
       "Status": {
-        "CurrentBranch": "develop",
+        "CurrentBranch": "TASK-T1245-QRCodesUltimo",
         "Ahead": 0,
         "Behind": 0,
-        "LocalChanges": 9
+        "LocalChanges": 0
       },
       "SubNodes": []
     },
@@ -311,12 +317,7 @@
       "Bookmark": 0,
       "IsRepository": true,
       "IsExpanded": false,
-      "Status": {
-        "CurrentBranch": "develop",
-        "Ahead": 0,
-        "Behind": 0,
-        "LocalChanges": 1
-      },
+      "Status": null,
       "SubNodes": []
     },
     {
@@ -326,7 +327,7 @@
       "IsRepository": true,
       "IsExpanded": false,
       "Status": {
-        "CurrentBranch": "develop",
+        "CurrentBranch": "TASK-T1281-SupplierManagementBasic",
         "Ahead": 0,
         "Behind": 0,
         "LocalChanges": 0
@@ -340,10 +341,10 @@
       "IsRepository": true,
       "IsExpanded": false,
       "Status": {
-        "CurrentBranch": "develop",
+        "CurrentBranch": "TASK-T1245-QRCodesUltimo",
         "Ahead": 0,
         "Behind": 0,
-        "LocalChanges": 1
+        "LocalChanges": 0
       },
       "SubNodes": []
     },
@@ -358,6 +359,20 @@
         "Ahead": 0,
         "Behind": 0,
         "LocalChanges": 22
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/DEV/omarchy-supplement",
+      "Name": "omarchy-supplement",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
+        "CurrentBranch": "main",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
       },
       "SubNodes": []
     },
@@ -382,10 +397,24 @@
       "IsRepository": true,
       "IsExpanded": false,
       "Status": {
+        "CurrentBranch": "linux",
+        "Ahead": 0,
+        "Behind": 0,
+        "LocalChanges": 0
+      },
+      "SubNodes": []
+    },
+    {
+      "Id": "/home/yorick/DEV/secretary",
+      "Name": "secretary",
+      "Bookmark": 0,
+      "IsRepository": true,
+      "IsExpanded": false,
+      "Status": {
         "CurrentBranch": "main",
         "Ahead": 0,
         "Behind": 0,
-        "LocalChanges": 2
+        "LocalChanges": 1
       },
       "SubNodes": []
     },
@@ -410,10 +439,15 @@
       "Color": 4278221015,
       "Repositories": [
         "/home/yorick/DEV/Aresis",
-        "/home/yorick/DEV/CaveGame",
-        "/home/yorick/DEV/leadsgen"
+        "/home/yorick/DEV/leadsgen",
+        "/home/yorick/DEV/omarchy-supplement/dotfiles",
+        "/home/yorick/DEV/omarchy-supplement",
+        "/home/yorick/DEV/library",
+        "/home/yorick/DEV/yorickteriele.github.io",
+        "/home/yorick/DEV/secretary",
+        "/home/yorick/DEV/Aresis/.claude/worktrees/trial-14-days"
       ],
-      "ActiveIdx": 0,
+      "ActiveIdx": 7,
       "IsActive": true,
       "RestoreOnStartup": true,
       "DefaultCloneDir": ""
@@ -438,13 +472,18 @@
       "Name": "Djurve",
       "Color": 4278221015,
       "Repositories": [
-        "/home/yorick/SD/Maxime",
         "/home/yorick/SD/Maxime.Registrations",
         "/home/yorick/SD/Maxime.Documentation",
         "/home/yorick/SD/Maxime.Web",
-        "/home/yorick/SD/Scripts"
+        "/home/yorick/SD/Maxime.Organization",
+        "/home/yorick/SD/Maxime.Suppliers",
+        "/home/yorick/SD/Maxime.Suppliers/Maxime.Common",
+        "/home/yorick/SD/Maxime",
+        "/home/yorick/SD/Maxime.Progress",
+        "/home/yorick/SD/Scripts",
+        "/home/yorick/SD/Maxime.Documentation/Maxime.Common"
       ],
-      "ActiveIdx": 4,
+      "ActiveIdx": 9,
       "IsActive": false,
       "RestoreOnStartup": true,
       "DefaultCloneDir": "/home/yorick/SD/"
@@ -480,5 +519,5 @@
       "AdditionalPrompt": ""
     }
   ],
-  "LastCheckUpdateTime": 1781950279.8800378
+  "LastCheckUpdateTime": 1786980023.6953285
 }
