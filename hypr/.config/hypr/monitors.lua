@@ -13,3 +13,6 @@ hl.monitor({ output = "", mode = "preferred", position = "auto", scale = omarchy
 
 -- Portrait/rotated secondary monitor (transform: 1 = 90°, 3 = 270°).
 -- hl.monitor({ output = "DP-2", mode = "preferred", position = "auto", scale = 1, transform = 1 })
+
+-- Per-machine overrides (scale, outputs), not tracked: ~/.config/hypr/monitors.local.lua
+do local path = os.getenv("HOME") .. "/.config/hypr/monitors.local.lua"; local file = io.open(path, "r"); if file then file:close(); dofile(path) end end
