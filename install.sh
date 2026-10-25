@@ -27,6 +27,12 @@ for config in "${stows[@]}"; do
   stow --adopt -t "$HOME" "$config"
 done
 
+# Omarchy theme overrides (e.g. gruvbox wallpapers). ~/.config/omarchy holds
+# a lot of state we don't own (plugins, lock-designs, shell.json, other
+# themes), so this stows directly rather than going through the `stows`
+# loop above, which rm -rf's the whole target dir first.
+stow -t "$HOME" omarchy
+
 # Scripts — stowed directly to $HOME so .local/bin/ is included
 stow --adopt -t "$HOME" bin
 

@@ -1,0 +1,39 @@
+Crash::: System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/yorick/SD/Maxime.Registrations/.git/worktrees/TASK-T1245-QRCodesUltimo/sourcegit.node'.
+
+----------------------------
+Version: 2026.12.0.0
+OS: Unix 7.0.10.1
+Framework: .NETCoreApp,Version=v10.0
+Source: <unknown>
+Thread Name: Unnamed
+App Start Time: 7/25/2026 10:32:08 AM
+Exception Time: 7/25/2026 12:07:08 PM
+Memory Usage: 402 MB
+----------------------------
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/yorick/SD/Maxime.Registrations/.git/worktrees/TASK-T1245-QRCodesUltimo/sourcegit.node'.
+   at Interop.ThrowExceptionForIoErrno(Interop.ErrorInfo, String, Boolean) + 0x11
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String, Interop.Sys.OpenFlags, Int32, Boolean, Boolean&, Func`4) + 0x157
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String, FileMode, FileAccess, FileShare, FileOptions, Int64, UnixFileMode, Int64&, UnixFileMode&, Boolean, Boolean&, Func`4) + 0x107
+   at System.IO.File.OpenHandle(String, FileMode, FileAccess, FileShare, FileOptions, Int64) + 0x96
+   at System.IO.File.WriteToFile(String, FileMode, ReadOnlySpan`1, Encoding) + 0x95
+   at SourceGit.ViewModels.Launcher.CloseRepositoryInTab(LauncherPage page, Boolean removeFromWorkspace) + 0x4b
+   at SourceGit.ViewModels.Launcher.CloseTab(LauncherPage page) + 0xe8
+   at SourceGit.Views.LauncherTabBar.OnPointerPressedTab(Object sender, PointerPressedEventArgs e) + 0xeb
+   at Avalonia.Interactivity.EventRoute.RaiseEventImpl(RoutedEventArgs) + 0x16a
+   at Avalonia.Interactivity.EventRoute.RaiseEvent(Interactive, RoutedEventArgs) + 0xda
+   at Avalonia.Interactivity.Interactive.RaiseEvent(RoutedEventArgs) + 0x3d
+   at Avalonia.Input.MouseDevice.MouseDown(IMouseDevice, UInt64, IInputElement, Point, PointerPointProperties, KeyModifiers, IInputElement) + 0x33d
+   at Avalonia.Input.MouseDevice.ProcessRawEvent(RawPointerEventArgs) + 0x1ff
+   at Avalonia.Input.InputManager.ProcessInput(RawInputEventArgs) + 0x34
+   at Avalonia.Controls.TopLevel.<>c.<HandleInput>b__150_0(Object state) + 0xec
+   at Avalonia.Threading.Dispatcher.Send(SendOrPostCallback, Object, Nullable`1) + 0xd6
+   at Avalonia.Controls.TopLevel.HandleInput(RawInputEventArgs e) + 0x163
+   at Avalonia.X11.X11Window.DispatchInput(RawInputEventArgs args) + 0x5f
+   at Avalonia.RawEventGrouper.Dispatch(RawInputEventArgs ev) + 0x5b
+   at Avalonia.X11.X11PlatformThreading.RunLoop(CancellationToken) + 0x2c2
+   at Avalonia.Threading.DispatcherFrame.Run(IControlledDispatcherImpl) + 0x6b
+   at Avalonia.Threading.Dispatcher.PushFrame(DispatcherFrame) + 0x99
+   at Avalonia.Threading.Dispatcher.MainLoop(CancellationToken) + 0x124
+   at Avalonia.Controls.ApplicationLifetimes.ClassicDesktopStyleApplicationLifetime.StartCore(String[]) + 0x76
+   at SourceGit.App.Main(String[] args) + 0xe0

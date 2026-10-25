@@ -10,10 +10,10 @@
   "EditorTabWidth": 4,
   "Zoom": 1,
   "Layout": {
-    "LauncherWidth": 2536,
-    "LauncherHeight": 1391,
-    "LauncherPositionX": 12,
-    "LauncherPositionY": 37,
+    "LauncherWidth": 2530,
+    "LauncherHeight": 1384,
+    "LauncherPositionX": 15,
+    "LauncherPositionY": 41,
     "LauncherWindowState": 0,
     "RepositorySidebarWidth": 250,
     "WorkingCopyLeftWidth": 834,
@@ -31,7 +31,6 @@
   "UseAutoHideScrollBars": true,
   "UseGitHubStyleAvatar": true,
   "Check4UpdatesOnStartup": true,
-  "ShowChildren": false,
   "IgnoreUpdateTag": "v2026.18",
   "ShowTagsInGraph": true,
   "UseCompactBranchNamesInGraph": true,
@@ -444,11 +443,10 @@
         "/home/yorick/DEV/omarchy-supplement",
         "/home/yorick/DEV/library",
         "/home/yorick/DEV/yorickteriele.github.io",
-        "/home/yorick/DEV/secretary",
-        "/home/yorick/DEV/Aresis/.claude/worktrees/trial-14-days"
+        "/home/yorick/DEV/secretary"
       ],
-      "ActiveIdx": 7,
-      "IsActive": true,
+      "ActiveIdx": 0,
+      "IsActive": false,
       "RestoreOnStartup": true,
       "DefaultCloneDir": ""
     },
@@ -483,8 +481,8 @@
         "/home/yorick/SD/Scripts",
         "/home/yorick/SD/Maxime.Documentation/Maxime.Common"
       ],
-      "ActiveIdx": 9,
-      "IsActive": false,
+      "ActiveIdx": 0,
+      "IsActive": true,
       "RestoreOnStartup": true,
       "DefaultCloneDir": "/home/yorick/SD/"
     }
@@ -519,5 +517,5 @@
       "AdditionalPrompt": ""
     }
   ],
-  "LastCheckUpdateTime": 1786980023.6953285
+  "LastCheckUpdateTime": 1788545016.89426
 }
